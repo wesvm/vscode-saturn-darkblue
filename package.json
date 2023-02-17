@@ -1,21 +1,37 @@
 {
-  "name": "saturn-darkblue",
-  "displayName": "saturn-darkblue",
-  "description": "Dark and minimalistic theme.",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.75.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/dark-color-theme.json"
-      }
-    ]
-  }
+    "name": "saturn-darkblue",
+    "displayName": "saturn-darkblue",
+    "description": "Dark and minimalistic theme.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "resources/logo/saturn-logo-128.png",
+    "contributes": {
+        "themes": [
+            {
+                "label": "dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dark-color-theme.json"
+            }
+        ]
+    },
+    "author": {
+        "name": "Walter Vilca",
+        "email": "samuelwalter2001@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/wesvm/vscode-saturn-darkblue.git",
+        "type": "git"
+    },
+    "keywords": [
+        "theme",
+        "darkblue",
+        "night",
+        "dark"
+    ],
+    "publisher": "saturn-darkblue"
 }
